@@ -1,0 +1,94 @@
+.menu {
+    background: #45b29d;
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: .5s ease-in-out;
+}
+
+.logo_svg {
+     width:50px;
+     position: absolute;
+     top: 20px;
+     right: 20px;
+ }
+
+.logo_path {
+    fill:#fff;
+}
+.main_top_section {
+    background: url("https://www.upstreamint.org/sites/default/files/home-bg-mobile.jpg")no-repeat ;
+    background-size: cover;
+    background-position: left;
+    height:100vh;
+    width:100%;
+}
+
+.hamburger{
+position: absolute;
+width: 32px;
+height: 3px;
+background: #fff;
+content: '';
+top: 44px;
+    left: 29px;
+    z-index: 1;
+}
+.hamburger::before{
+top: -7px;
+left: 0;
+position: absolute;
+width: 32px;
+height: 3px;
+background: #fff;
+content: '';
+}
+.hamburger::after{
+top: 7px;
+left: 0;
+position: absolute;
+width: 32px;
+height: 3px;
+background: #fff;
+content: '';
+}
+.empower{
+  position: absolute;
+  color: white;
+  font-size: 37px;
+  font-weight: lighter;
+  top: 35%;
+  left: 10%;
+  right:10%;
+  text-align: center;
+
+}
+.italic {
+  font-style: italic;
+  color: lightblue;
+}
+.we_seek {
+position: absolute;
+color: lightgray;
+font-size: 20px;
+right: 1.75;
+left:1.75%;
+top: 50%;
+text-align: center;
+}
+.red_button{
+ background: url("./img/button.png");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ height:120px;
+ width: 120px;
+ position: absolute;
+ top:40%;
+ left:50%;
+ transform: translate(-50%, -50%);
+
+}
